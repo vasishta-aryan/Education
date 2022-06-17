@@ -1,0 +1,273 @@
+/***    General     ***/
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.m-5-auto {
+  margin: 5rem auto;
+}
+
+.primary-button {
+  margin-top: 5rem;
+  margin-right: 1rem;
+  padding: 0.6rem;
+  width: 10rem;
+  background: #222;
+  border: none;
+  color: rgb(251, 244, 244);
+  font-size: 1.2rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  text-transform: capitalize;
+  border-radius: 3px;
+}
+
+/***    Landing Page     ***/
+.main-title,
+.main-para {
+  color: #222;
+}
+
+.main-title {
+  padding-top: 15rem;
+  font-size: 3.5rem;
+  margin-left: 7rem;
+  font-family: "Fredericka the Great";
+  text-transform: uppercase;
+  color: white;
+}
+
+.main-para {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+.LandingPage {
+  background-image: url(../src/assets/images/wp1888109.jpg);
+  background-size: cover;
+}
+.StudentLoginPage {
+  background-image: url(../src/assets/images/wp1888109.jpg);
+  background-size: cover;
+  height: 100%;
+}
+#reg_btn span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#reg_btn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#reg_btn:hover span {
+  padding-right: 25px;
+}
+
+#reg_btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/***    Login Page     ***/
+h2 {
+  font-weight: 300;
+  font-family: "Bezo";
+  margin-left: 6rem;
+}
+
+form {
+  display: inline-block;
+  background: whitesmoke;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 2rem;
+  margin: 10.7rem 0 1rem 6rem;
+  height: 14rem;
+}
+
+form label {
+  float: left;
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0;
+}
+
+.right-label {
+  float: right;
+  cursor: pointer;
+}
+
+input {
+  width: 15rem;
+  padding: 0.3rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+#sub_btn {
+  display: block;
+  width: 100%;
+  padding: 0.3rem;
+  border: none;
+  background: #222;
+  color: #fff;
+  border-radius: 3px;
+}
+
+#sub_btn:hover {
+  background: #333;
+  transition: all 0.5s;
+}
+
+footer p {
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  margin-left: 6rem;
+}
+.second {
+  margin-top: 1rem;
+}
+
+/***    Register Page     ***/
+#checkbox {
+  width: 1rem;
+}
+
+form span {
+  font-size: 0.8rem;
+}
+
+#reset_pass_lbl {
+  float: left;
+}
+
+/***    Student Page     ***/
+.Maincontainer {
+  text-align: center;
+  height: 42rem;
+  background-image: url(../src/assets/images/wp1888109.jpg);
+  background-size: cover;
+}
+.teacher_title {
+  color: black;
+  font-family: "Bebas Neue";
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 6rem;
+}
+.logout-button {
+  display: flex;
+  float: right;
+  margin: 1rem;
+  margin-top: -5.6rem;
+}
+.logout-but {
+  margin-left: 1057%;
+}
+/*** Student  quiz ***/
+.quiz {
+  background-color: #0005;
+
+  height: 15rem;
+  width: 35rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 31.8rem;
+  margin-top: 10.6rem;
+  font-size: 20px;
+  border-radius: 50px;
+}
+.answer-section {
+  display: flex;
+  flex-direction: column;
+  margin: 33px;
+  font-family: "Fredericka the Great";
+  padding: 3px;
+}
+.ans-button {
+  padding: 4px;
+  margin-top: 1rem;
+  width: 10rem;
+  border-radius: 10px;
+  background-color: #0005;
+  color: white;
+  border: 2px solid white;
+}
+.ans-button:hover {
+  color: pink;
+  background-color: #0005;
+  border: 2px solid rgb(243, 205, 155);
+}
+.question-count {
+  margin-bottom: 1.4rem;
+  color: white;
+  font-family: "Fredericka the Great";
+}
+.question-text {
+  font-family: "Fredericka the Great";
+  color: white;
+  font-size: 25px;
+  margin: 0.5rem;
+}
+.questionz {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Fredericka the Great";
+}
+.score-section {
+  font-size: 40px;
+  font-family: "Fredericka the Great";
+  color: white;
+}
+/***Login***/
+.teacher_login {
+  margin-left: 9%;
+}
+
+/** navbar **/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.list {
+  margin-left: 1rem;
+}
+.navbar {
+  background-color: #0005;
+  color: #222;
+}
+.Student_list {
+  margin: 50px;
+  padding: 40px;
+  color: #222;
+  font-weight: bold;
+}
+.Teacher_list {
+  color: #222;
+  font-weight: bold;
+}
+.Home_list {
+  color: #222;
+  font-weight: bold;
+}
